@@ -62,7 +62,7 @@ class TracksViewController: UIViewController, UITableViewDataSource {
 
                 // Access the array of tracks from the `results` property
                 let tracks = response.results
-                print("✅ \(tracks)")
+                //print("✅ \(tracks)")
                 
                 // Execute UI updates on the main thread when calling from a background callback
                 DispatchQueue.main.async {
